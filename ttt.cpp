@@ -98,8 +98,8 @@ int main()
 		
 		for(int i=1;i<5;i++)
 	{
-
-		cout<< "\n Player " << player1 << "Enter the Box";
+ 
+		cout<< "\n Player " << player1 << " Enter the Box ";
 		cin>> box;
 		mark( player1, box);
 		display();
@@ -117,7 +117,7 @@ int main()
 			break;
 		}
 
-		cout<< "\n Player " << player2 << "Enter the Box";
+		cout<< "\n Player " << player2 << " Enter the Box ";
 		cin>> box;
 		mark ( player2, box);
 		display();
@@ -136,7 +136,7 @@ int main()
 		}
 }
 		if (flag == 0 )
-		cout<<" \n Sorry, The game is a draw ";
+		cout<<" \n GAME DRAW ";
 	
 	return 0;
 }
